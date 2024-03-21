@@ -1,0 +1,104 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: raleway, sans-serif;
+  background-color: #333;
+  color: #eee;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.section {
+  padding: 2rem 1rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4.3rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.strong {
+  color: yellow;
+  font-weight: 900;
+  font-size: 4.3rem;
+  display: inline;
+}
+
+.section p {
+  text-align: center;
+  font-weight: 400;
+  padding: 2rem 1rem;
+  text-align: left;
+  line-height: 2.5rem;
+}
+
+strong {
+  font-size: 2rem;
+  max-width: 70%;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem 0;
+  color: yellow;
+  margin: 0 auto;
+}
+
+button {
+  padding: 1rem 4rem;
+  display: block;
+  margin: 3rem auto;
+  background-color: greenyellow;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: disc;
+  margin: 1rem 0;
+  margin-left: 2rem;
+  color: yellow;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  h1,
+  .strong {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.8;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  .bold-text {
+    font-size: 23px;
+    padding: 0;
+  }
+}
